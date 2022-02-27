@@ -1,0 +1,7 @@
+text = list(input().split(' '))
+word = input()
+count = 0
+for words in text:
+    if words == word:
+        count = count + 1 
+print(count)
