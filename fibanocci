@@ -1,0 +1,10 @@
+def fibanocci(n):
+    ans = [0, 1]
+    fr = 1
+    temp = 0
+    for i in range(2, n):
+        fr = temp + fr
+        temp = fr
+        ans.append(fr)
+    return(ans)
+print(fibanocci(int(input())))   
